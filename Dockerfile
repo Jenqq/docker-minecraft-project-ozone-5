@@ -23,7 +23,7 @@ VOLUME /data
 ADD server.properties /tmp/server.properties
 WORKDIR /data
 
-ENV MOTD "Minh's first modded Minecraft :)"
+ENV MOTD "Yourmum"
 ENV LEVEL world
 ENV OPS applefreak_111
 ENV JVM_OPTS -Xms2G -Xmx12G
