@@ -7,7 +7,6 @@ cd /data
 cp -rf /tmp/minecraft/* .
 echo "eula=true" > eula.txt
 
-mv "mods/EndermanEvolution-1.12.2-1.0.29.jar" "mods/EndermanEvolution-1.12.2-1.0.29.jar.disabled"
 
 if [[ ! -e server.properties ]]; then
     cp /tmp/server.properties .
