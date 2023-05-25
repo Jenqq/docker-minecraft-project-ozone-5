@@ -6,7 +6,7 @@ services:
     volumes:
       - minecraft-data:/data
     ports:
-      - "25565:25565"
+      - "25595:25595"
       - "25575:25575"
     restart: always
 volumes:
