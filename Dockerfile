@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-ENV SERVER_ZIP=https://www.curseforge.com/minecraft/modpacks/project-ozone-3-a-new-way-forward/download/4345112
+ENV SERVER_ZIP=https://www.curseforge.com/api/v1/mods/256289/files/4345112/download
 
 RUN apk --no-cache add wget openssl unzip bash
 RUN addgroup -g 1234 minecraft
