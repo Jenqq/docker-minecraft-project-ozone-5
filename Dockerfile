@@ -25,7 +25,7 @@ WORKDIR /data
 
 ENV MOTD "Yourmum"
 ENV LEVEL world
-ENV OPS applefreak_111
+ENV OPS Jenqemm
 ENV JVM_OPTS -Xms2G -Xmx12G
 
 CMD /start
